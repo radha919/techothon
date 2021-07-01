@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopByNotes</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header>
+<a href="#" class="logo">StopByNotes<span>.</span></a>
+<ul class="navigation">
+<li><a href="#banner">Home</a></li>
+<li><a href="#about">About</a></li>
+
+<li><a href="#resources">Resources</a></li>
+<ul>
+<li><a href="#reading">Reading</a></li>
+<li><a href="#watching">Watching</a></li>
+</ul>
+
+<li><a href="#contact">Contact Us</a></li>
+</ul>
+</header>
+
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Always Choose Best</h2>
+            <p>kuch bhi </p>
+            <a href="#" class="btn">Resources</a>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+    <div class="row">
+    <div class="col50">
+    <h2 class="titleText"><span>A</span>bout Us</h2>
+    <p> We are 
+    </p>
+    </div>
+    <div class="col50">
+    <div class="imgBx">
+    <img src="img1.jpg.jpg" >
+    </div>
+    </div>
+    </div>
+    </section>
+
+    <section class="resources" id="resources">
+        <div class="title">
+            <h2 class="titleText">Our <span>R</span>esources</h2>
+            <p> resources acche wale
+            </p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="">
+                </div>
+                <div class="text">
+                    <h3>Reading Material</h3>
+                </div>
+           </div>
+           <div class="box">
+                    <div class="imgBx">
+                        <img src="">
+                    </div>
+                    <div class="text">
+                        <h3>Visual Material</h3>
+                    </div>
+            </div>
+        </div>
+        </div>
+        <div class="title">
+            <a href="#" class="btn">View all</a>
+        </div>
+    </section>
+
+    
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>C</span>ontact us</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>
+        </div>
+        <div class="contactForm">
+            <h3>Send Message</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+                </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+    window.addEventListener('scroll',function() {
+        const header= document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+    });
+    </script>
+    
+</body>
+</html>
